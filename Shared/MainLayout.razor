@@ -1,0 +1,52 @@
+﻿@using EventEase.Services
+@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <div class="d-flex align-items-center">
+                @if (StateService.IsLoggedIn)
+                {
+                    <span class="me-3">Welcome, @StateService.CurrentUser</span>
+                    <button class="btn btn-sm btn-outline-danger" @onclick="StateService.Logout">
+                        Logout
+                    </button>
+                }
+                else
+                {
+                    <button class="btn btn-sm btn-outline-success" @onclick="logIn">
+                        Login
+                    </button>
+                }
+            </div>
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank" class="ms-3">About</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+    [Inject]
+    private StateService StateService { get; set; } = default!;
+
+    protected override void OnInitialized()
+    {
+        StateService.OnChange += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        StateService.OnChange -= StateHasChanged;
+    }
+    private void logIn()
+    {
+        StateService.Login("demoUser");
+    }
+}

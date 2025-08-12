@@ -1,0 +1,46 @@
+﻿@using EventEase.Models
+@using EventEase.Services
+@inject EventService EventService
+@inject NavigationManager Navigation
+@inject StateService StateService
+
+<div class="registration-form">
+    <EditForm Model="@Registration" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <InputText id="name" class="form-control" @bind-Value="Registration.AttendeeName" />
+            <ValidationMessage For="@(() => Registration.AttendeeName)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <InputText id="email" class="form-control" @bind-Value="Registration.AttendeeEmail" />
+            <ValidationMessage For="@(() => Registration.AttendeeEmail)" />
+        </div>
+
+        <button type="submit" class="btn btn-primary" disabled="@(!StateService.IsLoggedIn)">
+            @(StateService.IsLoggedIn ? "Complete Registration" : "Please Login to Register")
+        </button>
+    </EditForm>
+</div>
+
+@code {
+    [Parameter]
+    public int EventId { get; set; }
+
+    private Registration Registration { get; set; } = new();
+
+    protected override void OnParametersSet()
+    {
+        Registration.EventId = EventId;
+    }
+
+    private void HandleValidSubmit()
+    {
+        EventService.RegisterForEvent(Registration);
+        Navigation.NavigateTo($"/event/{EventId}");
+    }
+}

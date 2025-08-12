@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MMO\\870\\Coursea\\EventEase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\services\\stateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:services\\stateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\pages\\eventdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:pages\\eventdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\shared\\registrationform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:shared\\registrationform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\shared\\eventcard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:shared\\eventcard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|c:\\mmo\\870\\coursea\\eventease\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05D6257F-06FC-481B-B3B4-012C7A2AAD5A}|EventEase.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "wwwroot\\css\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-12T17:12:21.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T17:10:51.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T17:09:23.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotFound.razor",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\Pages\\NotFound.razor",
+              "RelativeDocumentMoniker": "Pages\\NotFound.razor",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\Pages\\NotFound.razor",
+              "RelativeToolTip": "Pages\\NotFound.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T17:09:07.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "Pages\\Register.razor",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\Pages\\Register.razor",
+              "RelativeToolTip": "Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T17:07:51.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventDetails.razor",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\Pages\\EventDetails.razor",
+              "RelativeDocumentMoniker": "Pages\\EventDetails.razor",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\Pages\\EventDetails.razor",
+              "RelativeToolTip": "Pages\\EventDetails.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T17:07:04.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T17:06:23.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegistrationForm.razor",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\Shared\\RegistrationForm.razor",
+              "RelativeDocumentMoniker": "Shared\\RegistrationForm.razor",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\Shared\\RegistrationForm.razor",
+              "RelativeToolTip": "Shared\\RegistrationForm.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T17:05:44.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventCard.razor",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\Shared\\EventCard.razor",
+              "RelativeDocumentMoniker": "Shared\\EventCard.razor",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\Shared\\EventCard.razor",
+              "RelativeToolTip": "Shared\\EventCard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T17:05:13.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StateService.cs",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\Services\\StateService.cs",
+              "RelativeDocumentMoniker": "Services\\StateService.cs",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\Services\\StateService.cs",
+              "RelativeToolTip": "Services\\StateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T17:04:32.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T17:01:42.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "Services\\EventService.cs",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\Services\\EventService.cs",
+              "RelativeToolTip": "Services\\EventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T17:03:58.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\MMO\\870\\Coursea\\EventEase\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Models\\Event.cs",
+              "ToolTip": "C:\\MMO\\870\\Coursea\\EventEase\\Models\\Event.cs",
+              "RelativeToolTip": "Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T17:03:08.161Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

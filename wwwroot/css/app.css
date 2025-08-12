@@ -1,0 +1,38 @@
+﻿/* Add to your existing styles */
+.event-card {
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+    .event-card:hover {
+        transform: translateY(-5px);
+    }
+
+.registration-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.not-found {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.event-details img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .event-details .row {
+        flex-direction: column;
+    }
+
+    .event-details img {
+        margin-bottom: 20px;
+    }
+}

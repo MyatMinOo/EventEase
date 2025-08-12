@@ -1,0 +1,51 @@
+﻿@page "/register/{id:int}"
+@using EventEase.Models
+@using EventEase.Services
+@inject EventService EventService
+@inject StateService StateService
+@inject NavigationManager Navigation
+
+@if (eventItem == null)
+{
+    <p>Loading event information...</p>
+}
+else
+{
+    <div class="registration-page">
+        <h1>Register for @eventItem.Name</h1>
+        <p>@eventItem.Date.ToString("MMMM dd, yyyy") at @eventItem.Location</p>
+
+        @if (!StateService.IsLoggedIn)
+        {
+            <div class="alert alert-warning">
+                Please login to register for events.
+                <button class="btn btn-sm btn-primary ms-2" @onclick="logIn">
+                    Demo Login
+                </button>
+            </div>
+        }
+
+        <RegistrationForm EventId="Id" />
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Event? eventItem;
+
+    protected override void OnParametersSet()
+    {
+        eventItem = EventService.GetEvent(Id);
+
+        if (eventItem == null)
+        {
+            Navigation.NavigateTo("/notfound");
+        }
+    }
+    private void logIn()
+    {
+        StateService.Login("demoUser");
+    }
+}

@@ -1,0 +1,46 @@
+﻿@page "/event/{id:int}"
+@using EventEase.Models
+@using EventEase.Services
+@inject EventService EventService
+@inject NavigationManager Navigation
+
+@if (eventDetails == null)
+{
+    <p>Loading event details...</p>
+}
+else
+{
+    <div class="event-details">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="@eventDetails.ImageUrl" class="img-fluid rounded" alt="@eventDetails.Name">
+            </div>
+            <div class="col-md-6">
+                <h1>@eventDetails.Name</h1>
+                <p><strong>Date:</strong> @eventDetails.Date.ToString("MMMM dd, yyyy h:mm tt")</p>
+                <p><strong>Location:</strong> @eventDetails.Location</p>
+                <p><strong>Available Seats:</strong> @eventDetails.AvailableSeats</p>
+                <p>@eventDetails.Description</p>
+                <a href="/register/@eventDetails.Id" class="btn btn-primary">Register Now</a>
+                <a href="/" class="btn btn-outline-secondary">Back to Events</a>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Event? eventDetails;
+
+    protected override void OnParametersSet()
+    {
+        eventDetails = EventService.GetEvent(Id);
+
+        if (eventDetails == null)
+        {
+            Navigation.NavigateTo("/notfound");
+        }
+    }
+}
